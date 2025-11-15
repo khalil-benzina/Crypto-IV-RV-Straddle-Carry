@@ -2,7 +2,7 @@
 
 ### Setup
 - Python 3.10+
-- `pip install pandas numpy requests yfinance`
+- `pip install -r requirements.txt`
 
 ### Generate Weekly Sample
 ```
