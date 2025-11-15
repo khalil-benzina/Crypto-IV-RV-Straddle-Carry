@@ -14,8 +14,4 @@ Writes `data/weekly_ivrv_<start>_to_<end>.csv` with RV, IV proxy, signal.
 ```
 python backtest.py data/weekly_ivrv_<start>_to_<end>.csv --benchmark-signal -1.0
 ```
-Prints headline metrics and saves `data/ivrv_results_<start>_to_<end>.csv` with strategy and benchmark equity curves.
-
-### Repo Notes
-- `data/` is gitignored; keep local outputs there.
-- Extend `Backtester` to plug in cost presets or new benchmarks as they arrive.
+Prints headline metrics and saves `data/ivrv_results_<start>_to_<end>.csv` with strategy and benchmark equity curves
