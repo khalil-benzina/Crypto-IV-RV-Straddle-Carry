@@ -4,14 +4,12 @@
 - Python 3.10+
 - `pip install -r requirements.txt`
 
-### Generate Weekly Sample
+### Get data for weekly sample
 ```
 python build_weekly.py
 ```
-Writes `data/weekly_ivrv_<start>_to_<end>.csv` with RV, IV proxy, signal.
 
 ### Run Backtest
 ```
 python backtest.py data/weekly_ivrv_<start>_to_<end>.csv --benchmark-signal <signal>
 ```
-Prints headline metrics and saves `data/ivrv_results_<start>_to_<end>.csv` with strategy and benchmark equity curves
