@@ -12,6 +12,6 @@ Writes `data/weekly_ivrv_<start>_to_<end>.csv` with RV, IV proxy, signal.
 
 ### Run Backtest
 ```
-python backtest.py data/weekly_ivrv_<start>_to_<end>.csv --benchmark-signal -1.0
+python backtest.py data/weekly_ivrv_<start>_to_<end>.csv --benchmark-signal <signal>
 ```
 Prints headline metrics and saves `data/ivrv_results_<start>_to_<end>.csv` with strategy and benchmark equity curves
